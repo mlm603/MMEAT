@@ -1,0 +1,11 @@
+
+Access Token 976600656504131584-2EFpzOx8jtMW3uVhufa2kxOUxreDICN
+Access Token Secret 7VoOextbN6TxqBfNcKF5fUUxfNqLLWMeuVtLLBOJPxmgB
+Access Level Read and write
+Owner MMEATool
+Owner ID 976600656504131584
+ Consumer Key (API Key) PZ2KX3NljZGdb8mJ8CiNX2xXk
+Consumer Secret (API Secret) TtvrUbOFOv4eajjaqRok50yRly6Sg52PKfDLj1YhrmYYQayDjX 
+
+Follow on twitter and turn on account notifications for “All Tweets” from this handle
+Follow on Facebook turn on notifications for all posts
