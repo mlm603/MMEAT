@@ -38,8 +38,7 @@ def same_games():
       if float(data[x]['excitement'])<threshold and float(details[x]['excitement'])>=threshold:
           #twit it
           twit = details[x]['competitor0']+' v '+details[x]['competitor1']+' is getting good! Score: '+details[x]['score0']+'-'+details[x]['score1']+'; Excitement Index: '+details[x]['excitement']
-          print(twit)
-          #send_tweet(twit)
+          send_tweet(twit)
     except:
       pass
 
@@ -51,8 +50,7 @@ def new_game():
         if float(details[x]['excitement'])>=threshold:
             #twit it
             twit = details[x]['competitor0']+' v '+details[x]['competitor1']+' is getting good! Score: '+details[x]['score0']+'-'+details[x]['score1']+'; Excitement Index: '+details[x]['excitement']
-            print(twit)
-            #send_tweet(twit)
+            send_tweet(twit)
   except:
     pass
 
@@ -89,7 +87,7 @@ while True:
   #FOR TESTING ONLY - REMOVE THIS LINE FOR LIVE GAMES
   #selects a past date from dropdown to allow for testing on inactive data
   ###########################################################################################################
-  Select(browser.find_element_by_id('gamedate-selector-mens')).select_by_value('March 18')
+  #Select(browser.find_element_by_id('gamedate-selector-mens')).select_by_value('March 18')
   ###########################################################################################################
 
   #grab all inner HTML
