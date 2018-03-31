@@ -172,8 +172,9 @@ while True:
             game_num = game_num+1
 
     #record timestamp and details array in log file
-    logging.info(ts)
-    logging.info(details)
+    #logging.info(ts)
+    #logging.info(details)
+    print(details)
 
     #get number of objects in details to cap index in loops
     game_count=len(details)
@@ -214,8 +215,7 @@ while True:
         with open('MMEAT_data.txt','w') as new_datafile:
             json.dump(details,new_datafile)
   else:
-    logging.warning(ts)
-    logging.warning('no live games')
+    print('no live games')
 
   #repeat process every 60 seconds
   time.sleep(60.0 - ((time.time() - starttime) % 60.0))
